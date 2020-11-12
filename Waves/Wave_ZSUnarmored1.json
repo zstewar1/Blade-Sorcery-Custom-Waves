@@ -1,0 +1,44 @@
+{
+  "$type": "ThunderRoad.WaveData, Assembly-CSharp",
+  "id": "ZSUnarmored1",
+  "version": 2,
+  "exludeFromBuild": false,
+  "category": "61 vs 1",
+  "title": "Unarmored I",
+  "description": "Higher difficulty AI, but still unarmored.",
+  "loop": false,
+  "maxAlive": 1,
+  "alwaysAvailable": false,
+  "waveSelectors": [
+    "Arena",
+    "Ruins",
+    "Market",
+    "Canyon",
+    "Citadel"
+  ],
+  "playerHealthMultiplier": 1.0,
+  "enemiesHealthMultiplier": 1.0,
+  "groups": [
+    {
+      "reference": 1,
+      "referenceID": "NPCBanditMale1H",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "ZSNPCBandit1H",
+      "overrideBrain": true,
+      "overrideBrainID": "HumanWarriorLv3",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 2,
+      "minMaxCount": {
+        "x": 8,
+        "y": 8,
+        "magnitude": 11.313708,
+        "sqrMagnitude": 128 
+      },
+      "spawnPointIndex": -1,
+      "conditionStepIndex": -1,
+      "conditionThreshold": 0
+    }
+  ]
+}

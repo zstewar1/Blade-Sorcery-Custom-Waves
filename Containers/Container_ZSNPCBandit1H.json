@@ -1,0 +1,51 @@
+{
+  "$type": "ThunderRoad.ContainerData, Assembly-CSharp",
+  "id": "ZSNPCBandit1H",
+  "version": 1,
+  "exludeFromBuild": false,
+  "displayName": "",
+  "description": null,
+  "content": [
+    {
+      "referenceID": "BanditHelmet",
+      "reference": 1,
+      "quantity": 1,
+      "customValues": []
+    },
+    {
+      "referenceID": "BanditHandL",
+      "reference": 1,
+      "quantity": 1,
+      "customValues": []
+    },
+    {
+      "referenceID": "BanditHandR",
+      "reference": 1,
+      "quantity": 1,
+      "customValues": []
+    },
+    {
+      "referenceID": "BanditChest",
+      "reference": 1,
+      "quantity": 1,
+      "customValues": []
+    },
+    {
+      "referenceID": "ZSWeapon1H",
+      "reference": 1,
+      "quantity": 1,
+      "customValues": [
+        {
+          "id": "Holder",
+          "value": "BackRight"
+        }
+      ]
+    },
+    {
+      "referenceID": "BanditCommonFeet",
+      "reference": 0,
+      "quantity": 1,
+      "customValues": []
+    }
+  ]
+}
