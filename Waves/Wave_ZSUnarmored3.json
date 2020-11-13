@@ -1,11 +1,11 @@
 {
   "$type": "ThunderRoad.WaveData, Assembly-CSharp",
-  "id": "ZSUnarmored2",
+  "id": "ZSUnarmored3",
   "version": 2,
   "exludeFromBuild": false,
   "category": "8Unarmored",
-  "title": "Unarmored II",
-  "description": "Higher difficulty AI, but still unarmored. This one mimics Very Easy I (4 1v1s, then 3 enemies in groups of up to 2).",
+  "title": "Unarmored III",
+  "description": "Higher difficulty AI, but still unarmored. Similar to previous, but with more enemies in pairs at the end.",
   "loop": false,
   "maxAlive": 2,
   "alwaysAvailable": false,
@@ -136,14 +136,35 @@
       "overrideMaxMelee": false,
       "overrideMaxMeleeCount": 1,
       "minMaxCount": {
-        "x": 1,
-        "y": 1,
-        "magnitude": 1.41421354,
-        "sqrMagnitude": 2
+        "x": 2,
+        "y": 2,
+        "magnitude": 2.828427,
+        "sqrMagnitude": 8
       },
       "spawnPointIndex": -1,
       "conditionStepIndex": 4,
-      "conditionThreshold": 1
+      "conditionThreshold": 0 
+    },
+    {
+      "reference": 1,
+      "referenceID": "NPCBanditMale1H",
+      "overrideFaction": false,
+      "factionID": 0,
+      "overrideContainer": true,
+      "overrideContainerID": "ZSNPCBandit1H",
+      "overrideBrain": true,
+      "overrideBrainID": "HumanWarriorLv3",
+      "overrideMaxMelee": false,
+      "overrideMaxMeleeCount": 1,
+      "minMaxCount": {
+        "x": 2,
+        "y": 2,
+        "magnitude": 2.828427,
+        "sqrMagnitude": 8
+      },
+      "spawnPointIndex": -1,
+      "conditionStepIndex": 5,
+      "conditionThreshold": 1 
     }
   ]
 }

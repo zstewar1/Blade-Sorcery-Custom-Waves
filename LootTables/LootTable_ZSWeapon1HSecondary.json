@@ -1,0 +1,33 @@
+{
+  "$type": "ThunderRoad.LootTable, Assembly-CSharp",
+  "id": "ZSWeapon1HSecondary",
+  "version": 1,
+  "exludeFromBuild": false,
+  "drops": [
+    {
+      "referenceID": "SwordShortAntic",
+      "reference": 0,
+      "probabilityWeight": 3.0
+    },
+    {
+      "referenceID": "SwordShortCommon",
+      "reference": 0,
+      "probabilityWeight": 5.0
+    },
+    {
+      "referenceID": "AxeShortCommon",
+      "reference": 0,
+      "probabilityWeight": 2.0
+    },
+    {
+      "referenceID": "MaceShortCommon",
+      "reference": 0,
+      "probabilityWeight": 2.0
+    },
+    {
+      "referenceID": "MaceShortFlanged",
+      "reference": 0,
+      "probabilityWeight": 2.0
+    },
+  ]
+}

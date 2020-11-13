@@ -1,11 +1,11 @@
 {
   "$type": "ThunderRoad.WaveData, Assembly-CSharp",
-  "id": "ZSUnarmored2",
+  "id": "ZSUnarmored5",
   "version": 2,
   "exludeFromBuild": false,
   "category": "8Unarmored",
-  "title": "Unarmored II",
-  "description": "Higher difficulty AI, but still unarmored. This one mimics Very Easy I (4 1v1s, then 3 enemies in groups of up to 2).",
+  "title": "Unarmored V",
+  "description": "Higher difficulty AI, but still unarmored. Mimics Easy I in terms of spawn order, and includes shields.",
   "loop": false,
   "maxAlive": 2,
   "alwaysAvailable": false,
@@ -29,12 +29,12 @@
       "overrideBrain": true,
       "overrideBrainID": "HumanWarriorLv3",
       "overrideMaxMelee": false,
-      "overrideMaxMeleeCount": 1,
+      "overrideMaxMeleeCount": 2,
       "minMaxCount": {
-        "x": 1,
-        "y": 1,
-        "magnitude": 1.41421354,
-        "sqrMagnitude": 2
+        "x": 2,
+        "y": 2,
+        "magnitude": 2.828427,
+        "sqrMagnitude": 8
       },
       "spawnPointIndex": -1,
       "conditionStepIndex": -1,
@@ -50,12 +50,12 @@
       "overrideBrain": true,
       "overrideBrainID": "HumanWarriorLv3",
       "overrideMaxMelee": false,
-      "overrideMaxMeleeCount": 1,
+      "overrideMaxMeleeCount": 2,
       "minMaxCount": {
-        "x": 1,
-        "y": 1,
-        "magnitude": 1.41421354,
-        "sqrMagnitude": 2
+        "x": 2,
+        "y": 2,
+        "magnitude": 2.828427,
+        "sqrMagnitude": 8
       },
       "spawnPointIndex": -1,
       "conditionStepIndex": 0,
@@ -71,12 +71,12 @@
       "overrideBrain": true,
       "overrideBrainID": "HumanWarriorLv3",
       "overrideMaxMelee": false,
-      "overrideMaxMeleeCount": 1,
+      "overrideMaxMeleeCount": 2,
       "minMaxCount": {
-        "x": 1,
-        "y": 1,
-        "magnitude": 1.41421354,
-        "sqrMagnitude": 2
+        "x": 2,
+        "y": 2,
+        "magnitude": 2.828427,
+        "sqrMagnitude": 8
       },
       "spawnPointIndex": -1,
       "conditionStepIndex": 1,
@@ -92,28 +92,28 @@
       "overrideBrain": true,
       "overrideBrainID": "HumanWarriorLv3",
       "overrideMaxMelee": false,
-      "overrideMaxMeleeCount": 1,
+      "overrideMaxMeleeCount": 2,
       "minMaxCount": {
-        "x": 1,
-        "y": 1,
-        "magnitude": 1.41421354,
-        "sqrMagnitude": 2
+        "x": 2,
+        "y": 2,
+        "magnitude": 2.828427,
+        "sqrMagnitude": 8
       },
       "spawnPointIndex": -1,
       "conditionStepIndex": 2,
-      "conditionThreshold": 0
+      "conditionThreshold": 1
     },
     {
       "reference": 1,
-      "referenceID": "NPCBanditMale1H",
+      "referenceID": "NPCBanditMale1HS",
       "overrideFaction": false,
       "factionID": 0,
       "overrideContainer": true,
-      "overrideContainerID": "ZSNPCBandit1H",
+      "overrideContainerID": "ZSNPCBandit1HS",
       "overrideBrain": true,
       "overrideBrainID": "HumanWarriorLv3",
       "overrideMaxMelee": false,
-      "overrideMaxMeleeCount": 1,
+      "overrideMaxMeleeCount": 2,
       "minMaxCount": {
         "x": 2,
         "y": 2,
@@ -122,24 +122,24 @@
       },
       "spawnPointIndex": -1,
       "conditionStepIndex": 3,
-      "conditionThreshold": 0
+      "conditionThreshold": 1
     },
     {
       "reference": 1,
-      "referenceID": "NPCBanditMale1H",
+      "referenceID": "NPCBanditMaleHtH",
       "overrideFaction": false,
       "factionID": 0,
       "overrideContainer": true,
-      "overrideContainerID": "ZSNPCBandit1H",
+      "overrideContainerID": "ZSNPCBanditHtH",
       "overrideBrain": true,
-      "overrideBrainID": "HumanWarriorLv3",
+      "overrideBrainID": "HumanWarriorLv4",
       "overrideMaxMelee": false,
-      "overrideMaxMeleeCount": 1,
+      "overrideMaxMeleeCount": 2,
       "minMaxCount": {
-        "x": 1,
-        "y": 1,
-        "magnitude": 1.41421354,
-        "sqrMagnitude": 2
+        "x": 2,
+        "y": 2,
+        "magnitude": 2.828427,
+        "sqrMagnitude": 8
       },
       "spawnPointIndex": -1,
       "conditionStepIndex": 4,
