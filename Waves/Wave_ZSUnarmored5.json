@@ -7,7 +7,7 @@
   "title": "Unarmored V",
   "description": "Higher difficulty AI, but still unarmored. Mimics Easy I in terms of spawn order, and includes shields.",
   "loop": false,
-  "maxAlive": 2,
+  "maxAlive": 3,
   "alwaysAvailable": false,
   "waveSelectors": [
     "Arena",
